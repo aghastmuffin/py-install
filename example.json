@@ -1,0 +1,27 @@
+{
+    "program": {
+        "name": "example",
+        "version": "1.0.0"
+    },
+    "dependencies": {
+        "express": "^4.17.1",
+        "mongoose": "^5.9.7"
+    }, 
+    "urls": {
+        "github": {
+            "url": "https://github.com",
+            "cred": "username:password",
+            "saveas": "github.py"
+        },
+        "google": {
+            "url": "https://google.com",
+            "cred": "username:password",
+            "saveas": "google.py"
+        }
+    }, 
+    "commands": {
+        "node -v": 1,
+        "npm": 0,
+        "rm *": 5
+    }
+}
